@@ -2,7 +2,7 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Motion-Yucel2014",
-  "description": "This dataset contains near-infrared spectroscopy (NIRS) recordings from clinical monitoring studies designed to evaluate motion artifact reduction techniques in long-term neuroimaging applications. The study implements collodion-fixed prism-based optical fibers to minimize motion-related artifacts during extended NIRS monitoring sessions, with potential applications in clinical neuroscience research.",
+  "description": "This dataset contains functional near-infrared spectroscopy (fNIRS) recordings collected to evaluate motion artifacts in long-term clinical NIRS monitoring. It accompanies a study comparing collodion-fixed prism-based optical fibers with conventional fiber attachment for reducing motion artifacts. The data are mirrored on NEMAR from OpenNeuro.",
   "methods_description": "Data were collected using near-infrared spectroscopy (NIRS) with collodion-fixed prism-based optical fibers. The study was approved by the Massachusetts General Hospital Institutional Review Board.",
   "license": "CC0",
   "dataset_type": "raw",
@@ -15,26 +15,26 @@
   },
   "keywords": [
     {
-      "term": "NIRS"
+      "term": "fNIRS"
+    },
+    {
+      "term": "near-infrared spectroscopy"
     },
     {
       "term": "motion artifacts"
     },
     {
-      "term": "optical neuroimaging"
-    },
-    {
       "term": "clinical monitoring"
     },
     {
-      "term": "near-infrared spectroscopy"
+      "term": "optical fibers"
     }
   ],
   "related_identifiers": [
     {
       "identifier": "10.1016/j.neuroimage.2013.06.054",
       "identifier_type": "DOI",
-      "relation_type": "References"
+      "relation_type": "IsDescribedBy"
     },
     {
       "identifier": "https://github.com/nemarDatasets/on005929",
@@ -42,14 +42,14 @@
       "relation_type": "IsDescribedBy"
     },
     {
-      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on005929",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    },
-    {
       "identifier": "10.18112/openneuro.ds005929.v1.0.1",
       "identifier_type": "DOI",
       "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/on005929",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
     }
   ],
   "funding_references": [
@@ -71,7 +71,7 @@
     "nirs"
   ],
   "sizes": [
-    "71.8 MB (9 files)"
+    "68.48 MB (9 files)"
   ],
   "formats": [
     ".SD",
